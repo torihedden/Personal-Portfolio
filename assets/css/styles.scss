@@ -9,6 +9,12 @@ body {
 #my-name {
   font-family: "Lato", sans-serif;
   font-size: 4em;
+  display: block;
+}
+
+#name-subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
   display: inline-block;
 }
 
@@ -17,7 +23,7 @@ body {
   padding: 10px;
   #contact-section {
     display: inline-block;
-    margin-left: 48%;
+    float: right;
     a {
       color: black;
     }
@@ -32,6 +38,7 @@ body {
   line-height: 1.5;
   font-size: 1.5em;
   margin-left: 10px;
+  margin-top: 45px;
   div:hover {
     text-decoration: underline;
   }

@@ -4,6 +4,11 @@ body {
 #my-name {
   font-family: "Lato", sans-serif;
   font-size: 4em;
+  display: block; }
+
+#name-subtitle {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
   display: inline-block; }
 
 #header {
@@ -11,7 +16,7 @@ body {
   padding: 10px; }
   #header #contact-section {
     display: inline-block;
-    margin-left: 48%; }
+    float: right; }
     #header #contact-section a {
       color: black; }
     #header #contact-section i {
@@ -21,7 +26,8 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   font-size: 1.5em;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-top: 45px; }
   #left-bar div:hover {
     text-decoration: underline; }
   #left-bar a {
