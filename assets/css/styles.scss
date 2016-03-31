@@ -1,14 +1,19 @@
 $background-gray: #E8E9EB;
+$navy: #0f183e;
+$eggplant: #370624;
+$sea-foam: #9eb7b9;
+$warm-gray: #484848;
 
 body {
   font-size: 1em;
+  background-color: $background-gray;
   #content-wrapper {
   }
 }
 
 #my-name {
   font-family: "Lato", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   display: block;
 }
 
@@ -19,7 +24,7 @@ body {
 }
 
 #header {
-  background-color: $background-gray;
+  background-color: #656565;
   padding: 10px;
   #contact-section {
     display: inline-block;
@@ -34,6 +39,8 @@ body {
 }
 
 #left-bar {
+  border: solid 1px green;
+  display: inline-block;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   font-size: 1.5em;
@@ -46,6 +53,41 @@ body {
     color: black;
     text-decoration: none;
   }
+}
+
+#projects {
+  height: 100%;
+  #project-wrap {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 2%;
+    display: inline-block;
+    .project-square {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      margin-right: 15px;
+      margin-bottom: 15px;
+
+    }
+    .project-rect {
+      width: 400px;
+      height: 200px;
+      display: inline-block;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+#about {
+  height: 100%;
+  background-color: $warm-gray;
+}
+
+#contact {
+  height: 100%;
+  background-color: white;
 }
 
 #about-me {
