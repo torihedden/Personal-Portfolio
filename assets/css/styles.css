@@ -23,8 +23,9 @@ body {
       margin: 0 10px; }
 
 #left-bar {
-  border: solid 1px green;
-  display: inline-block;
+  position: absolute;
+  top: 100;
+  left: 40;
   font-family: "Lato", "Arial", sans-serif;
   line-height: 1.5;
   font-size: 1.5em;
