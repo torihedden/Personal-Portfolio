@@ -22,6 +22,7 @@ body {
 #name-subtitle {
   font-family: $font;
   font-size: 1.5em;
+  text-align: right;
   display: inline-block;
 }
 
@@ -39,7 +40,7 @@ body {
       margin: 0 10px;
     }
     i:hover {
-      color: gray;
+      color: #4099FF;
     }
   }
 }
@@ -50,7 +51,7 @@ body {
   left: 40;
   font-family: $font;
   line-height: 1.5;
-  font-size: 1.5em;
+  font-size: 3em;
   margin-left: 10px;
   margin-top: 45px;
   div:hover {
@@ -77,7 +78,7 @@ body {
       margin-bottom: 15px;
     }
     .project-square:hover {
-      
+
     }
     .project-rect {
       width: 400px;
@@ -100,7 +101,14 @@ body {
   div {
     padding: 2%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
 
