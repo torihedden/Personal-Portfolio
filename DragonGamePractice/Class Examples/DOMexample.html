@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+
+
+</head>
+<body>
+
+  <!--The better method of getting HTML to be able to talk to the JS.
+      Put it in the BODY, not HEAD. Put after the script. Put at the bottom, as the last thing in the body
+      tag.-->
+  <script src = "index.js"></script>
+
+
+
+  <!-- How do you make JavaScript and HTML work together? Put script in the body. But it slows down the site.
+        If you put the script down at the bottom, the JS will load last. You should do this. You want all
+        other content to load first, before the JavaScript.-->
+  <script>
+
+    var txt =
+    document.querySelector(".name");
+
+    var btn =
+    document.querySelector("button");
+
+
+    btn.addEventListener("click", function () {
+      alert("Hi, " + txt.value);
+        });
+
+  </script>
+
+  <input class="name">
+  <button>Submit</button>
+
+
+</body>
+
+</html>
